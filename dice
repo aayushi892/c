@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int tc,n,i,j,opp,sum=0;
+printf("enter the number of test cases\n");
+scanf("%d",&tc);
+for(i=1;i<=t;i++)
+{
+  printf("enter the digit of the face whose opposite face digit is to evaluated\n");
+   scanf("%d",&n);
+   for(j=1;j<=6;j++)
+     {
+        opp=j;
+        sum=opp+n;
+        if(sum==7)
+        printf(" the number at the opposite face of the dice is %d",opp);
+        continue;
+     }
+ }
+      getch();
+}     
+      
